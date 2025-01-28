@@ -1,0 +1,70 @@
+/* a) Apply a background color to the header to create a visual separation */
+header {
+    background-color: #4CAF50; /* Choose a green color for the header */
+    padding: 20px;
+  }
+  
+  /* b) Set a fixed width for the header and center align it on the page */
+  header {
+    width: 80%; /* Fixed width */
+    margin: 0 auto; /* Center align */
+  }
+  
+  /* c) Create a navigation bar by styling the <nav> element with a background color, padding, and a bottom border */
+  nav {
+    background-color: #333; /* Dark background for contrast */
+    padding: 15px 0; /* Padding for spacing */
+    border-bottom: 2px solid #fff; /* Bottom border */
+    text-align: center; /* Center the links */
+  }
+  
+  /* d) Apply a box shadow to the navigation bar for depth */
+  nav {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  /* e) Set a specific height for the navigation bar and vertically align its contents */
+  nav {
+    height: 60px; /* Set fixed height */
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+  }
+  
+  /* f) Increase the font size of the navigation links */
+  nav a {
+    font-size: 18px; /* Bigger text for visibility */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Spacing between links */
+    font-display:calc(center);
+  }
+  
+  /* g) Add some margin to the navigation links for spacing */
+  nav a {
+    margin: 0 20px; /* Add more spacing between links */
+  }
+  
+  /* h) Style the main title by increasing its font size and applying bold text */
+  h1 {
+    font-size: 3em; /* Large text for the main title */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Dark text color for readability */
+    text-align: center; /* Center the title */
+  }
+  
+  /* i) Use a sub-title class to give the sub-title paragraph a different font size and color */
+  .subtitle {
+    font-size: 1.2em; /* Slightly smaller than the main title */
+    color: #666; /* Lighter text color */
+    text-align: center; /* Center the sub-title */
+  }
+  
+  /* j) Set a minimum height for the header to ensure it maintains a certain height */
+  header {
+    min-height: 150px; /* Ensure the header has a minimum height */
+  }
+  
+  /* k) Apply a top and
+  
